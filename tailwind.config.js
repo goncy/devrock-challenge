@@ -5,7 +5,7 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: ["./*.html"],
+  purge: ["./**/*.html"],
   theme: {
     fontFamily: {
       sans: ["Inter", "sans-serif"],
